@@ -162,6 +162,37 @@ User dropped `references/HT Hair Lounge.pdf` (75MB, 12 pages, internal title "Đ
 - **Logo vector source** — extract from PDF or request from client (PDF-embedded raster only at this point).
 - **Social plan** — deferred per user (future phase).
 
+## Created Resources (canonical IDs)
+
+### GitHub repository
+
+- URL: https://github.com/madiadteam/ht-hair-lounge
+- Visibility: private
+- Owner: `madiadteam`
+- Default branch: `main`
+- First commit: `149a3b8` — scaffold (docs, deploy guide, design spec)
+
+### Google Drive folders
+
+Parent: `[SD] MADIAD` (id `0AFYoFOUy4wA7Uk9PVA`) → `03_Services/` → `2026 - H&T Hair Lounge/`
+
+| Folder | ID |
+|---|---|
+| 2026 - H&T Hair Lounge (parent) | `1lQILXKQFBdcR-1oOcdJaNM2UrwItmqgz` |
+| 01_Brief & Scope | `1C2QTVALvvpLS3hq6S13R7PFyU_UgF-og` |
+| 02_Working Files | `104IV0PK1Qrkr3rckabLntspeTu_lLT5v` |
+| 03_Deliverables | `1BuAA1cSkGJzNH_vTogeIgeBZwD2gQNjq` |
+| 04_Archive | `1WgSiOQT46Ak6h7HcAAVD-zpFfg9yuRyv` |
+| Brand Assets | `1bsS1vgXY4nYxCYin1goRNwgMAm1raaad` |
+| Marketing | `1o9kDzCP_LgXN36I2Gx6Id8Yl7Sa4ia1E` |
+| Marketing/Content Calendar | `1bVyc5n1j9dStCAHDHNxaoXBcPaajIukp` |
+| Marketing/_INBOX | `1V7T8L6fQ_GSjBZOIABC9sBVzIRnv6QkV` |
+| Marketing/_OUTBOX | `1hl_hUpskeXCllbxWeYYb06FSoD0Uqz07` |
+| Marketing/Archive | `1rjewDxpPbvqTXiC3TImUBio4HHlkfr0U` |
+| _Knowledge (★ AI sync target, company="H&T Hair Lounge") | `1Vg46o1Oq4sWc8VPnH9ULufHt57yjgSMR` |
+
+Finance + Legal (per MADIAD routing rule) will land under `00_Company/` when the first invoice / contract is created — not pre-allocated here.
+
 ## References
 
 - `~/.claude/memory/feedback_project_workflow.md` — folder + naming rules + dev account defaults

@@ -1,0 +1,19 @@
+.DS_Store
+.env*
+*.log
+node_modules/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Deploy artifacts
+*.zip
+/dist/
+
+# Local-only reference materials (large binaries — route to Drive Brand Assets / Working Files)
+references/
+
+# Original design source (kept local, can be heavy)
+src/_original/*
+!src/_original/README.md

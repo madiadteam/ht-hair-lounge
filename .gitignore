@@ -11,6 +11,9 @@ node_modules/
 *.zip
 /dist/
 
+# Visual QA screenshots (local working artifacts)
+.qa/
+
 # Local-only reference materials (large binaries — route to Drive Brand Assets / Working Files)
 references/
 

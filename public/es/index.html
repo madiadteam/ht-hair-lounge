@@ -703,6 +703,8 @@ section { position: relative; }
 
 /* Logo lockup */
 .logo { display: flex; align-items: center; gap: 14px; text-decoration: none; color: var(--ink); }
+.logo img { height: 108px; width: auto; display: block; }
+@media (max-width: 720px) { .logo img { height: 64px; } }
 .logo .mono {
   font-family: var(--serif);
   font-size: 1.9rem;
@@ -774,7 +776,7 @@ body.menu-open .burger span:nth-child(3) { transform: translateY(-6px) rotate(-4
   position: relative; z-index: 2;
   width: 100%;
   padding-bottom: clamp(56px, 9vw, 120px);
-  padding-top: 140px;
+  padding-top: clamp(140px, 22vh, 200px);
 }
 .hero .eyebrow { color: oklch(0.78 0.09 356); text-shadow: 0 1px 2px oklch(0.20 0.05 354 / 0.45); }
 .hero .eyebrow::before, .hero .eyebrow::after { background: var(--accent); }
@@ -1224,7 +1226,7 @@ body.menu-open .burger span:nth-child(3) { transform: translateY(-6px) rotate(-4
 <header class="site-header" id="header">
   <div class="wrap">
     <a href="#top" class="logo" aria-label="H&amp;T Hair Lounge inicio">
-      <img src="../assets/17c80a78-eadf-4836-870f-eaa70ed4ea8a.png" alt="H&amp;T Hair Lounge" style="height:54px;width:auto">
+      <img src="../assets/17c80a78-eadf-4836-870f-eaa70ed4ea8a.png" alt="H&amp;T Hair Lounge">
     </a>
     <nav class="nav" aria-label="Primary">
       <div class="nav-links">

@@ -12,7 +12,7 @@
 4. **First deploy only:** delete any default files in `public_html/` (default `index.html`, `cgi-bin/` placeholder, etc.). Keep `public_html/` itself.
 5. From local machine, zip the **contents** of `public/`:
    ```bash
-   cd ~/Projects/ht-hair-lounge/public
+   cd ~/Projects/client-ht-hair-lounge/ht-hair-lounge/public
    zip -r ../ht-hair-lounge.zip . -x ".*"
    ```
 6. In File Manager → Upload → select `ht-hair-lounge.zip`

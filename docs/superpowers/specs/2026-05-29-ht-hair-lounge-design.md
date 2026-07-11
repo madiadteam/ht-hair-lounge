@@ -34,7 +34,7 @@ The user provided a Claude-hosted design URL (`https://api.anthropic.com/v1/desi
 ### Local folder structure
 
 ```
-~/Projects/ht-hair-lounge/
+~/Projects/client-ht-hair-lounge/ht-hair-lounge/
 ├── CLAUDE.md                              # Project orientation
 ├── README.md                              # Human-readable
 ├── .gitignore
